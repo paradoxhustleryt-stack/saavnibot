@@ -21,6 +21,6 @@ async def girl_chat(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(reply)
 
 
-app = ApplicationBuilder().token(TOKEN).build()
+app = ApplicationBuilder().token(8306688208:AAGSSOr3Y5PEnB8HlV-xRbK7yLt0kjd3774).build()
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, girl_chat))
 app.run_polling()
